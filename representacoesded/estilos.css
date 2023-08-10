@@ -1,0 +1,344 @@
+    /* Estilos CSS */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align:left;
+        background-color: #100e0d;
+      }
+      
+      header {
+        padding: 0px;
+        background-color: #100e0d;
+        color: #fff;
+      }
+      
+      header a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 0px;
+        font-weight: bold;
+      }
+      
+      header h1 {
+        margin-left: 0px;
+        margin-top: 40px;
+        padding: 0px;
+        font-size: 30px;
+        background-color: #100e0d;
+        color: #ffffff;
+      }
+
+      .div_logo{
+        color: #ffffff;
+        background-color: #100e0d;
+        display: flex;
+      }
+
+
+      .div_titulo_menu{
+        color: #ffffff;
+        background-color: #ffffff;
+        display: inline;
+        margin-top: 0;
+      }
+      
+      .logo {
+        width: 120px;
+        height: 120px;
+        padding: 0px;
+        background-color: #004aad;
+      }
+
+      .a_menu{
+        padding: 2px;
+      }
+
+      .a_menu:hover{
+        background-color: #ffffff;
+        color:#004aad;
+        padding: 2px;
+      }
+
+      main {
+        padding: 0 auto;
+        font-size: 20px;
+      }
+
+      h1{
+        color: #100e0d;
+      }
+
+      h3 {
+        color:#100e0d;
+      }
+
+      .h1_sobre{
+        background-image: linear-gradient(to right, #ffffff, #004aad);
+        color: #004aad;
+        padding: 10px;     
+        width: auto;
+      }
+
+      .h1_portfolio{
+        background-image: linear-gradient(to right, #004aad, #ffffff);
+        color: #ffffff;
+        padding: 10px;     
+        width: auto;
+        text-align: left;
+      }
+
+      .h3_portfolio {
+        text-align: left;
+      }
+
+      .h5_portfolio {
+        text-align: center;
+      }
+
+      .h1_faleconosco{
+        background-image: linear-gradient(to right, #ffffff, #004aad);
+        color:#004aad;   
+        padding: 10px;     
+        width: auto;
+      }
+
+      .ul_menu {
+        list-style-type: none;
+        background-image: linear-gradient(to right, #ffffff, #100e0d);
+        padding: 0;
+        text-align: left;
+      }
+      
+      .li_menu {
+        background-color: #100e0d;
+        display: inline;
+      }
+      
+      .li_menu a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .home{
+        background-color: #ffffff;
+      }
+
+      .paragrafo_home{
+        margin-top: 0px;
+        padding: 0px;
+        background-color: #100e0d;
+        cursor: pointer;
+      }
+
+      .sobre{
+        padding: 20px;
+        background-color: #ffffff;
+        color: #100e0d;
+      }
+
+      .produtos{
+        padding: 20px;
+        /* background-color: #100e0d; */
+        background-color: #ffffff;
+        color: #100e0d;
+        text-align: center;
+      }
+
+      .faleconosco{
+        padding: 20px;
+        background-color: hsl(0, 0%, 100%);
+      }
+
+      .feedback{
+        text-align: center;
+      }
+
+      ul {
+        background-color: #ffffff;
+        color: #100e0d;
+      }
+
+      li {
+        padding: 10px;
+        list-style-type:none;
+        text-align: justify;
+      }
+
+      .div_portfolio {
+        color: #100e0d;
+      }
+
+      .ulportfolio{
+        padding: 0;
+        text-align: center;
+      }
+
+      .categorias{
+        list-style-type:circle;
+      }
+
+      .li_missao{
+        text-align:justify;
+      }
+
+      .li_visao{
+        text-align:justify;
+      }
+
+      .li_portfolio{
+        background-color: #100e0d;
+      }
+
+      #img_representante_comercial{
+        width: 100%;
+      } 
+
+      .img_portfolio{
+        width: 150px;
+        height: 50px;
+      }
+
+      .div_form{
+        text-align: center;
+      }
+
+      form {
+        padding: 10px;
+        width: 50% auto;
+        text-align: left;
+        border-radius: 1em;
+      }
+
+      .div_labelform{
+        text-align: left;
+        font-size: 15px;
+        padding: 20px;
+        color: #100e0d;
+      }
+
+      .div_inputform{
+        text-align: left;
+        padding: 0px;
+      }
+
+      .div_inputform_center{
+        width: 25%;
+        text-align: center;
+        padding: 0px;
+      }
+
+      .input_faleconosco{
+        width: 90%;
+        height: 30px;
+        border: 1px solid #004aad;
+      }
+
+      .input_submit{
+        margin: 0px;
+      }
+
+      @media screen and (min-width: 780px) {
+        .input_faleconosco {
+          margin: auto;
+          width: 25%;
+        }
+      }
+
+      textarea{
+        width: 90%;
+        height: 250px;
+        border: 1px solid #004aad;
+      }
+
+      @media screen and (min-width: 780px) {
+        textarea {
+          margin: auto;
+          width: 25%;
+          height: 250px;
+        }
+      }
+
+      input[type="submit"] { 
+        border: none;
+        border-radius: 12px;
+        padding: 0px 0px;
+        outline: none;
+        background-color: #fffdd0;
+        color: #000;
+        font-size: 15px;
+        box-shadow: 5px 5px #A48F7A;
+        cursor: pointer;
+        width: 180px;
+        height: 30px;
+      }
+    
+      input[type="submit"]:hover{ 
+          background-color: #d2ba9e;
+          width: 180px;
+      }
+      
+      input[type="submit"]:active{
+          background-color: #d2ba9e;
+          box-shadow: 0px 4px #A48F7A;
+          transform: translateY(4px);
+          width: 180px;
+      } 
+      
+      .div_botao_voltar{
+        text-align: center;
+        margin-left: 70%;
+      }
+
+      .h4_voltar_topo{
+        text-align: right;
+      }
+
+      .link_topo {
+        color: #004aad;
+        text-decoration: none;
+        padding: 10px;
+      }
+
+      .link_topo:hover{
+        text-decoration: none;
+        background-color: #004aad;
+        color: #100e0d;
+      }
+
+      .h4_voltar_home{
+        text-align: right;
+      }
+
+      .link_home {
+        background-color: #100e0d;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px;
+
+      }
+
+      .link_home:hover{
+        text-decoration: none;
+        background-color: #004aad;
+        color: #100e0d;
+      }
+
+      .div_feedback{
+        background-color: #ffffff;
+        height: 100%;
+        padding: 10px;
+      }
+      
+      footer {
+        background-color: #100e0d;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      footer a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+  

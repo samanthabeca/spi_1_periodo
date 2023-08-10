@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Site Responsivo</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Meu Site Responsivo</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container">
+				<h2>Bem-vindo ao nosso site!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta ligula vitae dapibus facilisis.</p>
+				<a href="#" class="button">Saiba Mais</a>
+			</div>
+		</section>
+
+		<section class="features">
+			<div class="container">
+				<h2>Nossos Recursos</h2>
+				<div class="feature">
+					<img src="icon1.png" alt="Ícone 1">
+					<h3>Recurso 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="feature">
+					<img src="icon2.png" alt="Ícone 2">
+					<h3>Recurso 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="feature">
+					<img src="icon3.png" alt="Ícone 3">
+					<h3>Recurso 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonial">
+			<div class="container">
+				<blockquote>
+					<p>"O melhor site que já encontrei!"</p>
+					<footer>- Cliente Satisfeito</footer>
+				</blockquote>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Meu Site Responsivo. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+</body>
+</html>
